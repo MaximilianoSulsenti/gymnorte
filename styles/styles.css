@@ -57,13 +57,13 @@ font-size: x-large;
 .quienesgym{
 display: flex;
 flex-direction: row;
-padding: 15px 40px;
+padding: 20px 40px;
 }
-.introgym{
-font-size:xx-large;
+.textointro{
+font-size:x-large;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 align-items:center;
-padding: 70px;
+padding: 10px 20px;
 }
 .tenemosclaro{
 text-align: center;
@@ -124,7 +124,7 @@ padding: 10px;
 /* Sector de Horarios*/
 .tituhorarios{
 text-decoration: none;
-padding: 40px 100px;
+padding: 40px 90px;
 }
 .horarios{
 padding: 15px 30px;
@@ -188,6 +188,9 @@ header{
 nav ul{
     flex-direction: column;
 }
+.textointro{
+    font-size: 100%;
+}
 .tenemosclaro{
     display: flex;
     flex-direction: column;
@@ -199,6 +202,9 @@ h2{
     font-size: 100%;
 }
 .textoservicio{
+    font-size: 100%;
+}
+.tituhorarios{
     font-size: 100%;
 }
 .servigym1{

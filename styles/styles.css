@@ -195,6 +195,12 @@ nav ul{
 h2{
     font-size:100%;
 }
+.textoelgym{
+    font-size: 100%;
+}
+.textoservicio{
+    font-size: 100%;
+}
 .servigym1{
 flex-direction: column;
 justify-content: center;

@@ -139,7 +139,7 @@ color: darkblue;
 padding: 40px;
 }
 .formulariocontacto{
-    padding: 30px 30px;
+ padding: 30px 30px;
 }
 section iframe{
 min-width: 90%;
@@ -217,6 +217,10 @@ justify-content: center;
 }
 .playlist{
     flex-direction: column;
+    width: 90%;
+}
+.carruseles{
+    padding: 10px 10px;
 }
 .infocontacto{
     flex-direction: column;

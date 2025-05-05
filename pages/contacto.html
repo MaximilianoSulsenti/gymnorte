@@ -6,6 +6,7 @@
     <title>Gimnasio Norte | Contacto</title>
     <link rel="shortcut icon" href="../assets/img/gymnorte.logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
@@ -42,7 +43,7 @@
             <p>Morrow 4420</p>
             <p>CP 2000 Rosario, Argentina</p>
          <section>
-            <form class="w-50">
+            <form class="w-50 formulariocontacto">
               <div class="mb-3">
                 <label for="email" class="form-label">Direccion de Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
@@ -52,21 +53,31 @@
                 <input type="text" class="form-control" id="nombreyapellido" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <label for="mensaje" class="form-label">Dejanos Tu Mensaje</label>
+                <label for="numerodecontacto" class="form-label">Tu Numero de contacto</label>
+                <input type="number" class="form-control" id="numerodecontacto" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Dejanos tu mensaje ...</label>
                  <textarea name="" id="mensaje" class="form-control"></textarea>              
               </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="submit" class="btn" style="background-color:rgba(11, 11, 230, 0.975); color:aliceblue">Enviar</button>
+              <button type="submit" class="btn" style="background-color:rgba(11, 11, 230, 0.975); color:aliceblue">Borrar</button>
             </form>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.853964282181!2d-60.73804892449133!3d-32.87558307362258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6523ad3db1d1f%3A0xc213f09e00821cba!2sMorrow%204420%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1742844205558!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
      </main>
-    <footer>
-      <p>2025 Gimnasio Norte</p>
-      <div class="footerRedes">
-        <img src="../assets/img/instagram.png" alt="instagram">
-        <p>gimnasio_norte</p>
-        <img src="../assets/img/whatsapp.png" alt="wsp">
-        <p>(341) 3870952</p>
+     <footer class="footer mt-auto">
+      <div class="container text-center">
+        <div class="mb-3">
+          <h4>¡Segui Nuestras Redes!</h4>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/gimnasio_norte" target="_blank" class="instagram" class="me-3"><i class="bi bi-instagram"></i></a>Gimnasio Norte
+          <a href="https://wa.me/543413870952" target="_blank" class="whatsapp" class="me-3"><i class="bi bi-whatsapp"></i></a> WhatsApp
+        </div>
+        <div class="mt-3">
+          <small>© 2025 Mi Sitio Web. Todos los derechos reservados.</small>
+        </div>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>

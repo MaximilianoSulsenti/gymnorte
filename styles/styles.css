@@ -15,7 +15,7 @@ width: 100%;
 background-color:rgba(11, 11, 230, 0.975);
 }
 .colorEnlace{
-color: aliceblue;
+color: antiquewhite;
 }
 p{
 font-size:large;
@@ -99,7 +99,7 @@ padding: 30px;
 justify-content: space-between;
 }
 .textoelgym{
-padding: 30px 60px;
+padding: 30px 80px;
 font-size: x-large;
 }
 .carousel {
@@ -114,7 +114,7 @@ object-fit: cover;
  padding: 10px 10px;
 }
 .carruseles{
- padding: 25px 0;
+ padding: 15px;
 }
 .playlist{
 width: 50%;
@@ -215,12 +215,9 @@ justify-content: center;
 flex-direction: column;
 justify-content: center;
 }
-.carousel{
-    padding: 5px;
-}
 .playlist{
     flex-direction: column;
-    width: 90%;
+    width: 70%;
 }
 .infocontacto{
     flex-direction: column;

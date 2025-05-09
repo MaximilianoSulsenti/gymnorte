@@ -141,6 +141,10 @@ padding: 40px;
  padding: 30px 30px;
  margin-left: 20px;
 }
+.textformulario{
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+}
 section iframe{
 min-width: 90%;
 margin-top: 20px;

@@ -1,0 +1,30 @@
+/* Sector de Pie de Pagina */
+.footer {
+  background-color:black;
+  color: white;
+  padding: 40px 20px;
+  }
+  .social-icons {
+  display: flex;
+  justify-content: center;
+  gap:15px;
+  flex-wrap: wrap;
+  }
+  .social-icons a {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 8px;
+  font-weight: 500;
+  text-decoration:none;
+  transition: opacity 0.3s;
+  }
+  .social-icons a:hover {
+    opacity: 0.7;
+  }
+  .instagram{
+    color:#E1306C;
+  }
+  .whatsapp{
+    color:#25D366;
+  }

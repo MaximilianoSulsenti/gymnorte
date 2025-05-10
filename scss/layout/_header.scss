@@ -1,0 +1,28 @@
+header{
+background-color: rgba(11, 11, 230, 0.975);
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px;
+width: 100%;
+}
+.fondoNav{
+background-color:rgba(11, 11, 230, 0.975);
+}
+.colorEnlace{
+color: antiquewhite;
+}
+p{
+font-size:large;
+padding: 15px 50px;
+}
+nav {
+list-style: none;
+display:flex;
+flex-direction:row;
+}
+nav ul li{
+margin-left: 20px;
+font-size:large;
+}

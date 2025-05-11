@@ -1,20 +1,23 @@
+@use "../variables"as v;
+@use "sass:list";
+@use "../mixins"as mix;
+@use "../extends"as ext;
+
 main{
-background-color:rgba(251, 251, 251, 0.988);
+  background-color: list.nth(v.$coloresfondos, 2);
 }
 h1{
-color:antiquewhite;
-font-family:Arial, Helvetica, sans-serif;
+color: v.$colorencabezado;
+@include mix.textoh1;
 text-transform:uppercase;
 text-decoration-line: none;
-font-size:250%;
 margin: 2%;
 }
 h2{
-font-size:xx-large;
-font-family:Georgia, 'Times New Roman', Times, serif;
+@include mix.textoh2;
 text-align-last: center;
 text-decoration: underline;
-color: black;
+color: list.nth(v.$colortexto, 2);
 padding: 40px 30px;
 }
 h3{
@@ -22,13 +25,11 @@ font-size: x-large;
 }
  /* sector de Inicio*/
 .quienesgym{
-display: flex;
-flex-direction: row;
+@extend %flexrow;
 padding: 20px 40px;
 }
 .textointro{
-font-size:x-large;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ @include mix.textointroservi;
 align-items:center;
 padding: 30px 70px;
 }
@@ -40,28 +41,23 @@ text-decoration: underline;
 /*sector de servicios */
 .textoservicio{
     padding: 20px 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:x-large;
+    @include mix.textointroservi;
 }
 .servigym1{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+@extend %flexrowbetween;
 justify-items: center;
 text-align: center;
 padding: 80px;
 }
 .servigym2{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+@extend %flexrowbetween;
 justify-items: center;
 text-align: center;
 padding: 80px;
 }
 /*sector de El Gimnasio*/
 .gymtexto{
-color: darkblue;
+color: list.nth(v.$colortexto, 1);
 font-family:Arial, Helvetica, sans-serif;
 padding: 30px 60px;
 }
@@ -102,7 +98,7 @@ padding: 15px 30px;
 /* Sector de Contacto */
 .infocontacto{
 text-align-last:left;
-color: darkblue;
+color: list.nth(v.$colortexto, 1);
 padding: 40px;
 }
 .formulariocontacto{
@@ -110,8 +106,7 @@ padding: 40px;
  margin-left: 20px;
 }
 .textformulario{
-    font-size:large;
-    font-family: Arial, Helvetica, sans-serif;
+@include mix.texformulario;
 }
 section iframe{
 min-width: 90%;

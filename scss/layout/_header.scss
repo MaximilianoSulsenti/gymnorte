@@ -1,26 +1,28 @@
+@use "../variables"as v;
+@use "sass:list";
+@use "../extends"as ext;
+@use "../mixins"as mix;
+
 header{
-background-color: rgba(11, 11, 230, 0.975);
-display:flex;
-flex-direction: row;
-justify-content: space-between;
+background-color: list.nth(v.$coloresfondos, 1);
+@extend %flexrowbetween;
 align-items: center;
 padding: 0 40px;
 width: 100%;
 }
 .fondoNav{
-background-color:rgba(11, 11, 230, 0.975);
+background-color: list.nth(v.$coloresfondos, 1);
 }
 .colorEnlace{
-color: antiquewhite;
+color: v.$colorencabezado;
 }
 p{
 font-size:large;
 padding: 15px 50px;
 }
 nav {
+@extend %flexrow;    
 list-style: none;
-display:flex;
-flex-direction:row;
 }
 nav ul li{
 margin-left: 20px;

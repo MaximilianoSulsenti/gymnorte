@@ -1,0 +1,10 @@
+//Extends
+%flexrowbetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+%flexrow{
+    display: flex;
+    flex-direction: row;
+}

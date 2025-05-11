@@ -1,0 +1,20 @@
+//mixins para los H1
+@mixin textoh1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 250%;
+ }
+ //mixins para los H2
+ @mixin textoh2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;  
+ }
+ //mixins para el texto de intro y servicios
+ @mixin textointroservi{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+ }
+ //texto del formulario
+ @mixin texformulario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+ }

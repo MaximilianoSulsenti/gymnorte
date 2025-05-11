@@ -1,5 +1,8 @@
-@use "reset";
+@use "basequery/reset";
 @use "layout/header";
 @use "layout/main";
 @use "layout/footer";
-@use "mquery"
+@use "basequery/mquery";
+@use "variables";
+@use "extends";
+@use "mixins"

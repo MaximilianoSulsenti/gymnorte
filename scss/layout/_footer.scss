@@ -1,7 +1,10 @@
+@use "../variables"as v;
+@use "sass:list";
+
 /* Sector de Pie de Pagina */
 .footer {
-  background-color:black;
-  color: white;
+  background-color: list.nth(v.$coloresfondos, 3);
+  color: list.nth(v.$colortexto, 3);
   padding: 40px 20px;
   }
   .social-icons {
@@ -23,8 +26,8 @@
     opacity: 0.7;
   }
   .instagram{
-    color:#E1306C;
+    color: list.nth(v.$Coloriconos, 1);
   }
   .whatsapp{
-    color:#25D366;
+    color: list.nth(v.$Coloriconos, 2);
   }

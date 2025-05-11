@@ -9,7 +9,15 @@ background-color: list.nth(v.$coloresfondos, 1);
 align-items: center;
 padding: 0 40px;
 width: 100%;
-}
+     nav{
+        @extend %flexrow;    
+       list-style: none;
+         nav ul li{
+            margin-left: 20px;
+            font-size:large;
+         }
+       }
+     }
 .fondoNav{
 background-color: list.nth(v.$coloresfondos, 1);
 }
@@ -19,12 +27,4 @@ color: v.$colorencabezado;
 p{
 font-size:large;
 padding: 15px 50px;
-}
-nav {
-@extend %flexrow;    
-list-style: none;
-}
-nav ul li{
-margin-left: 20px;
-font-size:large;
 }

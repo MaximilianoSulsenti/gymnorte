@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="../assets/img/gymnorte.logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -43,7 +45,7 @@
             <p>Morrow 4420</p>
             <p>CP 2000 Rosario, Argentina</p>
          <section>
-            <form class="w-50 formulariocontacto" style="background-color:darkgray;">
+            <form class="w-50 formulariocontacto" style= "background-color:darkgray;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <div class="mb-3">
                 <label for="email" class="form-label textformulario">Direccion de Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
@@ -64,7 +66,7 @@
               <button type="submit" class="btn" style="background-color:rgba(11, 11, 230, 0.975); color:aliceblue">Borrar</button>
             </form>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.853964282181!2d-60.73804892449133!3d-32.87558307362258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6523ad3db1d1f%3A0xc213f09e00821cba!2sMorrow%204420%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1742844205558!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+          </section>
      </main>
      <footer class="footer mt-auto">
       <div class="container text-center">
@@ -80,6 +82,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>

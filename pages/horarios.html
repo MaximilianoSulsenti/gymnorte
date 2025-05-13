@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="../assets/img/gymnorte.logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -41,15 +43,15 @@
             <div>
               <h2 class="tituhorarios">Tenemos una amplia variedad de actividades para potenciar la motivación y poder lograr tu máximo rendimiento. Sumate a nosotros y encontra tu mejor version !!</h2>           
                 <section class="horarios container">
-                    <div class="row">
+                    <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <img src="../assets/img/horariosmusculacion&.jpg" alt="horariomusculacion" class="col-lg-3 col-12">
-                      <img src="../assets/img/horariostabata&.jpg" alt="horariotabata" class="col-lg-3 col-12">
-                      <img src="../assets/img/horariosfuncional&.jpg" alt="horariofuncional" class="col-lg-3 col-12">
-                      <img src="../assets/img/horarioszumba&.jpg" alt="horariotabata" class="col-lg-3 col-12">
+                      <img src="../assets/img/gymnortetabata.jpg" alt="horariotabata" class="col-lg-3 col-12">
+                      <img src="../assets/img/gymnortefuncional.jpg" alt="horariofuncional" class="col-lg-3 col-12">
+                      <img src="../assets/img/gymnortezumba.jpg" alt="horariozumba" class="col-lg-3 col-12">
                     </div>
                 </section>
                <div class="d-flex justify-content-center carruselhorarios">
-                 <div id="carouselExample" class="carousel slide w-75">
+                 <div id="carouselExample" class="carousel slide w-75" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                    <div class="carousel-inner">
                      <div class="carousel-item active">
                        <img src="../assets/img/gymnorte.panoramica2.jpg" class="d-block w-100" alt="salaprincipal">
@@ -83,6 +85,8 @@
             </div>
           </div>
         </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>AOS.init();</script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>

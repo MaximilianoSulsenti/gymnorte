@@ -4,9 +4,10 @@
 @use "../extends"as ext;
 
 main{
-  background-color: list.nth(v.$coloresfondos, 2);
+background: RGBA(11, 11, 230, 0.975);
+background: linear-gradient(180deg,rgba(11, 11, 230, 1) 0%, rgba(251, 251, 251, 1) 4%, rgba(251, 251, 251, 1) 45%, rgba(251, 251, 251, 1) 98%, rgba(0, 0, 0, 1) 99%);
 }
-h1{
+h1{ 
 color: v.$colorencabezado;
 @include mix.textoh1;
 text-transform:uppercase;
@@ -35,7 +36,7 @@ padding: 30px 70px;
 }
 .tenemosclaro{
 text-align: center;
-padding: 10px 30px;
+padding: 20px 30px;
 text-decoration: underline;
 }
 /*sector de servicios */
@@ -47,13 +48,13 @@ text-decoration: underline;
 @extend %flexrowbetween;
 justify-items: center;
 text-align: center;
-padding: 80px;
+padding: 70px;
 }
 .servigym2{
 @extend %flexrowbetween;
 justify-items: center;
 text-align: center;
-padding: 80px;
+padding: 70px;
 }
 /*sector de El Gimnasio*/
 .gymtexto{
@@ -77,7 +78,8 @@ object-fit: cover;
  padding: 10px 10px;
 }
 .carruseles{
- padding: 15px;
+ padding: 25px;
+ overflow-x: hidden;
 }
 .playlist{
 width: 50%;
@@ -93,7 +95,7 @@ padding: 40px 100px;
 padding: 15px 30px;
 }
 .carruselhorarios{
-padding: 15px 30px;
+padding: 25px;
 }
 /* Sector de Contacto */
 .infocontacto{

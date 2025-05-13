@@ -14,12 +14,14 @@ width: 100%;
        list-style: none;
          nav ul li{
             margin-left: 20px;
-            font-size:large;
+            font-size:xx-large;
          }
        }
      }
 .fondoNav{
 background-color: list.nth(v.$coloresfondos, 1);
+padding: 10px 40px;
+font-size: large;
 }
 .colorEnlace{
 color: v.$colorencabezado;

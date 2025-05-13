@@ -25,11 +25,13 @@ header nav {
 }
 header nav nav ul li {
   margin-left: 20px;
-  font-size: large;
+  font-size: xx-large;
 }
 
 .fondoNav {
   background-color: rgba(11, 11, 230, 0.975);
+  padding: 10px 40px;
+  font-size: large;
 }
 
 .colorEnlace {
@@ -42,7 +44,8 @@ p {
 }
 
 main {
-  background-color: rgba(251, 251, 251, 0.988);
+  background: RGBA(11, 11, 230, 0.975);
+  background: linear-gradient(180deg, rgb(11, 11, 230) 0%, rgb(251, 251, 251) 4%, rgb(251, 251, 251) 45%, rgb(251, 251, 251) 98%, rgb(0, 0, 0) 99%);
 }
 
 h1 {
@@ -81,7 +84,7 @@ h3 {
 
 .tenemosclaro {
   text-align: center;
-  padding: 10px 30px;
+  padding: 20px 30px;
   text-decoration: underline;
 }
 
@@ -95,13 +98,13 @@ h3 {
 .servigym1 {
   justify-items: center;
   text-align: center;
-  padding: 80px;
+  padding: 70px;
 }
 
 .servigym2 {
   justify-items: center;
   text-align: center;
-  padding: 80px;
+  padding: 70px;
 }
 
 /*sector de El Gimnasio*/
@@ -131,7 +134,8 @@ h3 {
 }
 
 .carruseles {
-  padding: 15px;
+  padding: 25px;
+  overflow-x: hidden;
 }
 
 .playlist {
@@ -151,7 +155,7 @@ h3 {
 }
 
 .carruselhorarios {
-  padding: 15px 30px;
+  padding: 25px;
 }
 
 /* Sector de Contacto */
@@ -182,7 +186,7 @@ section iframe {
 .footer {
   background-color: black;
   color: white;
-  padding: 40px 20px;
+  padding: 10px;
 }
 
 .social-icons {
@@ -227,6 +231,7 @@ section iframe {
   }
   .textointro {
     font-size: 100%;
+    padding: 20px;
   }
   .tenemosclaro {
     display: flex;
@@ -237,6 +242,14 @@ section iframe {
   }
   .textoelgym {
     font-size: 100%;
+    padding: 30px 30px;
+  }
+  .gymtexto {
+    padding: 20px;
+  }
+  .carruseles {
+    overflow-x: auto;
+    padding: 20px;
   }
   .textoservicio {
     font-size: 90%;

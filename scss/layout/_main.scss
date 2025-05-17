@@ -46,8 +46,9 @@ text-decoration: underline;
 }
 .card-body{
     background-color: black;
-    color: antiquewhite;
-    border-radius: 10px;
+    color:aliceblue;
+    border-radius: 7px;
+    border: 2px solid black;
 }
 .servigym1{
 @extend %flexrowbetween;

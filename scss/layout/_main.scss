@@ -27,12 +27,12 @@ font-size: x-large;
  /* sector de Inicio*/
 .quienesgym{
 @extend %flexrow;
-padding: 20px 40px;
+padding: 30px 40px;
 }
 .textointro{
- @include mix.textointroservi;
+@include mix.textointro;
 align-items:center;
-padding: 30px 70px;
+padding: 30px 50px;
 }
 .tenemosclaro{
 text-align: center;
@@ -42,7 +42,7 @@ text-decoration: underline;
 /*sector de servicios */
 .textoservicio{
     padding: 20px 100px;
-    @include mix.textointroservi;
+    @include mix.textoservi;
 }
 .servigym1{
 @extend %flexrowbetween;

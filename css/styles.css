@@ -95,10 +95,16 @@ h3 {
   font-size: x-large;
 }
 
+.card-body {
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
 .servigym1 {
   justify-items: center;
   text-align: center;
-  padding: 70px;
+  padding: 60px;
 }
 
 .servigym2 {

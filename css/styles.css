@@ -3,9 +3,15 @@
   margin: 0;
 }
 
-.quienesgym, .servigym1, .servigym2, header {
+.quienesgym, .mision, .servigym1, .servigym2, header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.vision {
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
 
@@ -82,9 +88,25 @@ h3 {
   padding: 30px 50px;
 }
 
+.mision {
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.textomyv {
+  font-size: 180%;
+}
+
+.vision {
+  align-items: center;
+  padding: 10px 60px;
+  padding-bottom: 40px;
+}
+
 .tenemosclaro {
   text-align: center;
-  padding: 20px 30px;
+  font-size: xx-large;
+  padding-top: 60px;
   text-decoration: underline;
 }
 
@@ -233,9 +255,16 @@ section iframe {
     font-size: 100%;
     padding: 20px;
   }
-  .tenemosclaro {
+  .mision {
     display: flex;
     flex-direction: column;
+  }
+  .vision {
+    display: flex;
+    flex-direction: column;
+  }
+  .textomyv {
+    font-size: 120%;
   }
   h2 {
     font-size: 100%;

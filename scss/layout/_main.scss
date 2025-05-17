@@ -44,11 +44,16 @@ text-decoration: underline;
     padding: 20px 100px;
     @include mix.textointroservi;
 }
+.card-body{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+}
 .servigym1{
 @extend %flexrowbetween;
 justify-items: center;
 text-align: center;
-padding: 70px;
+padding: 60px;
 }
 .servigym2{
 @extend %flexrowbetween;

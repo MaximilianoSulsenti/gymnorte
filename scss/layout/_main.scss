@@ -34,9 +34,24 @@ padding: 30px 40px;
 align-items:center;
 padding: 30px 50px;
 }
+.mision{ 
+    @extend %flexrowbetween;
+    align-items: center;
+    padding: 30px 50px;
+}
+.textomyv{
+    font-size: 180%;
+}
+.vision{
+   @extend %flexreversebetween;
+    align-items: center;
+    padding: 10px 60px;
+    padding-bottom: 40px;
+}
 .tenemosclaro{
 text-align: center;
-padding: 20px 30px;
+font-size: xx-large;
+padding-top: 60px;
 text-decoration: underline;
 }
 /*sector de servicios */

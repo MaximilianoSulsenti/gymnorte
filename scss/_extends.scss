@@ -4,6 +4,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+%flexreversebetween{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
 %flexrow{
     display: flex;
     flex-direction: row;

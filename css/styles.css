@@ -99,7 +99,6 @@ h3 {
   background-color: black;
   color: aliceblue;
   border-radius: 7px;
-  border: 2px solid black;
 }
 
 .servigym1 {
@@ -266,11 +265,12 @@ section iframe {
   }
   .servigym1 {
     flex-direction: column;
-    justify-content: center;
+    padding: 7px;
   }
   .servigym2 {
     flex-direction: column;
-    justify-content: center;
+    padding: 7px;
+    padding-bottom: 30px;
   }
   .playlist {
     flex-direction: column;

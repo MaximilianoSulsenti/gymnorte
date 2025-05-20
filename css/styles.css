@@ -139,9 +139,9 @@ h3 {
 }
 
 .playlist {
-  width: 50%;
-  margin-top: 10px;
-  padding: 10px;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 40px;
 }
 
 /* Sector de Horarios*/
@@ -167,7 +167,10 @@ h3 {
 
 .formulariocontacto {
   padding: 30px 30px;
-  margin-left: 20px;
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .textformulario {
@@ -176,10 +179,10 @@ h3 {
 }
 
 section iframe {
-  min-width: 90%;
-  margin-top: 20px;
-  padding: 20px 20px;
-  justify-content: center;
+  width: 95%;
+  margin-left: 30px;
+  padding: 20px;
+  align-content: center;
 }
 
 /* Sector de Pie de Pagina */
@@ -252,10 +255,11 @@ section iframe {
     padding: 20px;
   }
   .textoservicio {
-    font-size: 90%;
+    padding: 10px 20px;
+    font-size: medium;
   }
   .tituhorarios {
-    font-size: 90%;
+    padding: 40px 20px;
   }
   .servigym1 {
     flex-direction: column;
@@ -267,14 +271,20 @@ section iframe {
   }
   .playlist {
     flex-direction: column;
-    width: 70%;
+    width: 80%;
+    margin-left: 10%;
   }
   .infocontacto {
     flex-direction: column;
     text-align-last: center;
   }
+  .formulariocontacto {
+    width: 90%;
+    justify-content: center;
+  }
   section iframe {
     max-width: 100%;
+    margin-left: 10px;
   }
   footer {
     flex-direction: column;

@@ -82,9 +82,9 @@ object-fit: cover;
  overflow-x: hidden;
 }
 .playlist{
-width: 50%;
-margin-top: 10px;
-padding: 10px;
+width: 70%;
+margin-left: 15%;
+padding-top: 40px;
 }
 /* Sector de Horarios*/
 .tituhorarios{
@@ -105,15 +105,19 @@ padding: 40px;
 }
 .formulariocontacto{
  padding: 30px 30px;
- margin-left: 20px;
+ margin:auto;
+ width: 70%;
+ justify-content: center;
+ border-radius: 10px;
 }
 .textformulario{
 @include mix.texformulario;
 }
 section iframe{
-min-width: 90%;
-margin-top: 20px;
-padding: 20px 20px;
-justify-content: center;
+width: 95%;
+margin-left: 30px;
+padding: 20px;
+align-content: center;
 }
+
 

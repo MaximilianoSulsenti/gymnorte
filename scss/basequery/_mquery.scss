@@ -33,11 +33,11 @@ h2{
     padding: 20px;
 }
 .textoservicio{
-    font-size: 90%;
-    
+    padding: 10px 20px;
+    font-size: medium;
 }
 .tituhorarios{
-    font-size: 90%;
+    padding: 40px 20px;
 }
 .servigym1{
 flex-direction: column;
@@ -51,14 +51,20 @@ justify-content: center;
 }
 .playlist{
     flex-direction: column;
-    width: 70%;
+    width: 80%;
+    margin-left: 10%;
 }
 .infocontacto{
     flex-direction: column;
     text-align-last: center;
 }
+.formulariocontacto{
+    width: 90%;
+    justify-content: center;
+}
 section iframe{
     max-width: 100%;
+    margin-left: 10px;
 }
 footer{
     flex-direction: column;

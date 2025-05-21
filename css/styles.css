@@ -253,18 +253,22 @@ section iframe {
   }
   .textointro {
     font-size: 100%;
-    padding: 20px;
+    padding: 10px;
+  }
+  .textomyv {
+    font-size: medium;
+    padding: 5px;
   }
   .mision {
     display: flex;
     flex-direction: column;
   }
+  .mision img {
+    width: 100%;
+  }
   .vision {
     display: flex;
     flex-direction: column;
-  }
-  .textomyv {
-    font-size: 120%;
   }
   h2 {
     font-size: 100%;

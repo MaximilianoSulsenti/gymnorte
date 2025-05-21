@@ -99,6 +99,7 @@ h3 {
   background-color: black;
   color: aliceblue;
   border-radius: 7px;
+  width: 26rem;
 }
 
 .servigym1 {
@@ -259,6 +260,9 @@ section iframe {
   }
   .textoservicio {
     font-size: 90%;
+  }
+  .card-body {
+    width: 100%;
   }
   .tituhorarios {
     font-size: 90%;

@@ -171,6 +171,12 @@ h3 {
   width: 70%;
   justify-content: center;
   border-radius: 10px;
+  background-color: darkgray;
+}
+
+.btn {
+  background-color: rgba(11, 11, 230, 0.975);
+  color: aliceblue;
 }
 
 .textformulario {
@@ -202,11 +208,11 @@ section iframe {
 .social-icons a {
   display: flex;
   align-items: center;
-  font-size: 25px;
+  margin: 5px;
+  font-size: 40px;
   gap: 8px;
   font-weight: 500;
   text-decoration: none;
-  transition: opacity 0.3s;
 }
 
 .social-icons a:hover {
@@ -214,10 +220,18 @@ section iframe {
 }
 
 .instagram {
+  color: aliceblue;
+}
+
+.instagram :hover {
   color: #E1306C;
 }
 
 .whatsapp {
+  color: aliceblue;
+}
+
+.whatsapp :hover {
   color: #25D366;
 }
 

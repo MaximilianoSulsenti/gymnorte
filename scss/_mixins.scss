@@ -8,10 +8,15 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;  
  }
- //mixins para el texto de intro y servicios
- @mixin textointroservi{
+ //mixins para el texto de servicios
+ @mixin textoservi{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
+ }
+ // para el texto de inicio
+ @mixin textointro{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: large;
  }
  //texto del formulario
  @mixin texformulario{

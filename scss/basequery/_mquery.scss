@@ -11,10 +11,20 @@ nav ul{
 }
 .textointro{
    font-size:100%;
-   padding: 20px;
-
+   padding: 10px;
 }
-.tenemosclaro{
+.textomyv{
+    font-size: medium;
+    padding: 5px;
+}
+.mision{
+    display: flex;
+    flex-direction: column;
+}
+.mision img{
+    width: 100%;
+}
+.vision{
     display: flex;
     flex-direction: column;
 }

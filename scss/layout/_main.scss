@@ -109,6 +109,11 @@ padding: 40px;
  width: 70%;
  justify-content: center;
  border-radius: 10px;
+ background-color: darkgray;
+}
+.btn{
+    background-color:rgba(11, 11, 230, 0.975);
+    color:aliceblue;
 }
 .textformulario{
 @include mix.texformulario;

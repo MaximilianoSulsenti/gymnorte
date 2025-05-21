@@ -16,18 +16,24 @@
   .social-icons a {
   display: flex;
   align-items: center;
-  font-size: 25px;
+  margin: 5px;
+  font-size: 40px;
   gap: 8px;
   font-weight: 500;
   text-decoration:none;
-  transition: opacity 0.3s;
   }
   .social-icons a:hover {
     opacity: 0.7;
   }
   .instagram{
-    color: list.nth(v.$Coloriconos, 1);
+    color: aliceblue;
+  }
+  .instagram :hover{
+     color: list.nth(v.$Coloriconos, 1);
   }
   .whatsapp{
+    color: aliceblue;
+  }
+  .whatsapp :hover{
     color: list.nth(v.$Coloriconos, 2);
   }

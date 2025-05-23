@@ -44,6 +44,20 @@ text-decoration: underline;
     padding: 20px 100px;
     @include mix.textointroservi;
 }
+.fondocards{
+  background-image: url("../assets/img/gymnorte.panoramica2.jpg");
+  background-size: 90% 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 60px;
+}
+.card{
+  width: 26rem;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
 .card-body{
     background-color: black;
     color:aliceblue;

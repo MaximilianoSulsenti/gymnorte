@@ -45,19 +45,31 @@ h2{
 .textoservicio{
     padding: 10px 20px;
     font-size: medium;
+    font-size:90%;  
+}
+.card-body{
+    width: 100%;
 }
 .tituhorarios{
     padding: 40px 20px;
 }
+.fondocards {
+    padding: 20px;
+    background-position: center;
+  }
+.card {
+    width: 95%;
+    margin: 2px;
+}
 .servigym1{
 flex-direction: column;
-justify-content: center;
+padding: 7px;
 
 }
 .servigym2{
 flex-direction: column;
-justify-content: center;
-
+padding: 7px;
+padding-bottom: 30px;
 }
 .playlist{
     flex-direction: column;

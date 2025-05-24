@@ -126,14 +126,14 @@ h3 {
   padding: 60px;
 }
 
-.card {
+.cardservi {
   width: 26rem;
   border-radius: 7px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.card-body {
+.infocard {
   background-color: black;
   color: aliceblue;
   border-radius: 7px;
@@ -196,7 +196,24 @@ h3 {
 }
 
 .horarios {
-  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 20px 10px;
+}
+
+.cardhorario {
+  width: 18rem;
+  border-radius: 10px;
+}
+
+.card-body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.cardmuscu {
+  font-size: medium;
 }
 
 .carruselhorarios {
@@ -327,12 +344,10 @@ section iframe {
   .textoservicio {
     padding: 10px 20px;
     font-size: medium;
+    font-size: 90%;
   }
   .card-body {
     width: 100%;
-  }
-  .tituhorarios {
-    padding: 40px 20px;
   }
   .fondocards {
     padding: 20px;
@@ -355,6 +370,12 @@ section iframe {
     flex-direction: column;
     width: 80%;
     margin-left: 10%;
+  }
+  .tituhorarios {
+    padding: 40px 20px;
+  }
+  .horarios {
+    flex-direction: column;
   }
   .infocontacto {
     flex-direction: column;
